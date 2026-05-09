@@ -1,7 +1,7 @@
 const Database = require('better-sqlite3');
 const path = require('path');
 
-const db = new Database('/app/data/quiz.db');
+const db = new Database('/app/db/quiz.db');
 
 // Enable WAL mode for better performance
 db.pragma('journal_mode = WAL');
