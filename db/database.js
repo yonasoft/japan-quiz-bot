@@ -1,7 +1,10 @@
 const Database = require('better-sqlite3');
 const path = require('path');
+const fs = require('fs');
 
-const db = new Database('/app/db/quiz.db');
+const dbDir = path.join(__dirname);
+fs.mkdirSync(dbDir, { recursive: true });
+const db = new Database(path.join(dbDir, 'quiz.db'));
 
 // Enable WAL mode for better performance
 db.pragma('journal_mode = WAL');
