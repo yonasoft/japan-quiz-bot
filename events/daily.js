@@ -2,7 +2,7 @@ const cron = require('node-cron');
 const { getAllGuildConfigs } = require('../db/database');
 const { runQuizRound, getRandomQuestion } = require('../utils/quizEngine');
 
-const DAILY_QUESTION_COUNT = 5;
+const DEFAULT_QUESTION_COUNT = 5;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -24,13 +24,14 @@ function startDailyScheduler(client) {
           if (!channel) continue;
 
           const mode = config.default_mode || 'multiple';
-          await channel.send(`🌸 **Daily Japan Quiz!** ${DAILY_QUESTION_COUNT} questions incoming — how much do you know?`);
+          const count = config.daily_count ?? DEFAULT_QUESTION_COUNT;
+          await channel.send(`🌸 **Daily Japan Quiz!** ${count} questions incoming — how much do you know?`);
 
           const usedIds = [];
-          for (let i = 0; i < DAILY_QUESTION_COUNT; i++) {
+          for (let i = 0; i < count; i++) {
             const question = getRandomQuestion(usedIds);
             usedIds.push(question.id);
-            await channel.send(`**Question ${i + 1} of ${DAILY_QUESTION_COUNT}**`);
+            await channel.send(`**Question ${i + 1} of ${count}**`);
             await runQuizRound(channel, mode, question);
             if (i < DAILY_QUESTION_COUNT - 1) await sleep(3000);
           }

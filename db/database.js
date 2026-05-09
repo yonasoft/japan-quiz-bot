@@ -159,9 +159,10 @@ module.exports = {
   getAllGuildConfigs
 };
 
-// Migration: add daily_only column if it doesn't exist
 try {
   db.exec(`ALTER TABLE guild_config ADD COLUMN daily_only INTEGER DEFAULT 0`);
-} catch (e) {
-  // Column already exists, ignore
-}
+} catch (e) {}
+
+try {
+  db.exec(`ALTER TABLE guild_config ADD COLUMN daily_count INTEGER DEFAULT 5`);
+} catch (e) {}

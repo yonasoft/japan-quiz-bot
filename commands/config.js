@@ -35,6 +35,13 @@ module.exports = {
         )
     )
     .addSubcommand(sub =>
+      sub.setName('setcount')
+        .setDescription('Set the number of daily quiz questions (default: 5, max: 20)')
+        .addIntegerOption(opt =>
+          opt.setName('count').setDescription('Number of questions (1-20)').setRequired(true).setMinValue(1).setMaxValue(20)
+        )
+    )
+    .addSubcommand(sub =>
       sub.setName('status')
         .setDescription('Show current bot configuration')
     ),
@@ -63,12 +70,18 @@ module.exports = {
       setGuildConfig(guildId, 'default_mode', mode);
       await interaction.reply({ content: `✅ Default mode set to **${mode === 'multiple' ? 'Multiple Choice' : 'Type Answer'}**`, ephemeral: true });
 
+    } else if (sub === 'setcount') {
+      const count = interaction.options.getInteger('count');
+      setGuildConfig(guildId, 'daily_count', count);
+      await interaction.reply({ content: `✅ Daily quiz will now send **${count} question${count !== 1 ? 's' : ''}** per day`, ephemeral: true });
+
     } else if (sub === 'status') {
       const config = getGuildConfig(guildId);
       const channel = config.daily_channel_id ? `<#${config.daily_channel_id}>` : 'Not set';
       const time = `${String(config.daily_hour).padStart(2, '0')}:${String(config.daily_minute).padStart(2, '0')}`;
+      const count = config.daily_count ?? 5;
       await interaction.reply({
-        content: `**Japan Quiz Config**\n📢 Daily Channel: ${channel}\n⏰ Daily Time: ${time}\n🎮 Default Mode: ${config.default_mode}`,
+        content: `**Japan Quiz Config**\n📢 Daily Channel: ${channel}\n⏰ Daily Time: ${time}\n🎮 Default Mode: ${config.default_mode}\n❓ Daily Questions: ${count}`,
         ephemeral: true
       });
     }
