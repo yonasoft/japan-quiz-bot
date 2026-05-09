@@ -104,74 +104,76 @@ async function runQuizRound(channel, mode = 'multiple', questionOverride = null)
 
   let quizMessage;
 
-  if (mode === 'multiple') {
-    const embed = buildMultipleChoiceEmbed(question, shuffledOptions);
-    const row = buildButtons(shuffledOptions);
-    quizMessage = await channel.send({ embeds: [embed], components: [row] });
+  return new Promise(async (resolve) => {
+    if (mode === 'multiple') {
+      const embed = buildMultipleChoiceEmbed(question, shuffledOptions);
+      const row = buildButtons(shuffledOptions);
+      quizMessage = await channel.send({ embeds: [embed], components: [row] });
 
-    const collector = quizMessage.createMessageComponentCollector({ time: 30_000 });
+      const collector = quizMessage.createMessageComponentCollector({ time: 30_000 });
 
-    collector.on('collect', async (interaction) => {
-      if (allAnswered.has(interaction.user.id)) {
-        return interaction.reply({ content: 'You already answered!', ephemeral: true });
-      }
+      collector.on('collect', async (interaction) => {
+        if (allAnswered.has(interaction.user.id)) {
+          return interaction.reply({ content: 'You already answered!', ephemeral: true });
+        }
 
-      allAnswered.add(interaction.user.id);
-      const chosenIndex = parseInt(interaction.customId.replace('quiz_answer_', ''));
-      const isCorrect = chosenIndex === correctIndex;
+        allAnswered.add(interaction.user.id);
+        const chosenIndex = parseInt(interaction.customId.replace('quiz_answer_', ''));
+        const isCorrect = chosenIndex === correctIndex;
 
-      recordAnswer(interaction.user.id, channel.guildId, interaction.user.username, isCorrect);
+        recordAnswer(interaction.user.id, channel.guildId, interaction.user.username, isCorrect);
 
-      if (isCorrect) {
-        answeredUsers.correct.push(interaction.user.id);
-        await interaction.reply({ content: '✅ Correct!', ephemeral: true });
-      } else {
-        answeredUsers.incorrect.push(interaction.user.id);
-        await interaction.reply({ content: `❌ Wrong! The answer was **${question.answer}**`, ephemeral: true });
-      }
-    });
+        if (isCorrect) {
+          answeredUsers.correct.push(interaction.user.id);
+          await interaction.reply({ content: '✅ Correct!', ephemeral: true });
+        } else {
+          answeredUsers.incorrect.push(interaction.user.id);
+          await interaction.reply({ content: `❌ Wrong! The answer was **${question.answer}**`, ephemeral: true });
+        }
+      });
 
-    collector.on('end', async () => {
-      const resultEmbed = buildResultEmbed(question, shuffledOptions, answeredUsers, mode);
-      await quizMessage.edit({ embeds: [resultEmbed], components: [] });
-    });
+      collector.on('end', async () => {
+        const resultEmbed = buildResultEmbed(question, shuffledOptions, answeredUsers, mode);
+        await quizMessage.edit({ embeds: [resultEmbed], components: [] });
+        resolve();
+      });
 
-  } else {
-    // Type answer mode
-    const embed = buildTypeAnswerEmbed(question);
-    quizMessage = await channel.send({ embeds: [embed] });
+    } else {
+      const embed = buildTypeAnswerEmbed(question);
+      quizMessage = await channel.send({ embeds: [embed] });
 
-    const filter = (msg) => !msg.author.bot;
-    const collector = channel.createMessageCollector({ filter, time: 30_000 });
+      const filter = (msg) => !msg.author.bot;
+      const collector = channel.createMessageCollector({ filter, time: 30_000 });
 
-    collector.on('collect', async (msg) => {
-      if (allAnswered.has(msg.author.id)) return;
+      collector.on('collect', async (msg) => {
+        if (allAnswered.has(msg.author.id)) return;
 
-      const userAnswer = msg.content.trim().toLowerCase();
-      const correctAnswer = question.answer.toLowerCase();
+        const userAnswer = msg.content.trim().toLowerCase();
+        const correctAnswer = question.answer.toLowerCase();
 
-      // Fuzzy match: check if answer contains the correct answer or vice versa
-      const isCorrect = userAnswer === correctAnswer ||
-        userAnswer.includes(correctAnswer) ||
-        correctAnswer.includes(userAnswer);
+        const isCorrect = userAnswer === correctAnswer ||
+          userAnswer.includes(correctAnswer) ||
+          correctAnswer.includes(userAnswer);
 
-      allAnswered.add(msg.author.id);
-      recordAnswer(msg.author.id, channel.guildId, msg.author.username, isCorrect);
+        allAnswered.add(msg.author.id);
+        recordAnswer(msg.author.id, channel.guildId, msg.author.username, isCorrect);
 
-      if (isCorrect) {
-        answeredUsers.correct.push(msg.author.id);
-        await msg.react('✅');
-      } else {
-        answeredUsers.incorrect.push(msg.author.id);
-        await msg.react('❌');
-      }
-    });
+        if (isCorrect) {
+          answeredUsers.correct.push(msg.author.id);
+          await msg.react('✅');
+        } else {
+          answeredUsers.incorrect.push(msg.author.id);
+          await msg.react('❌');
+        }
+      });
 
-    collector.on('end', async () => {
-      const resultEmbed = buildResultEmbed(question, shuffledOptions, answeredUsers, mode);
-      await channel.send({ embeds: [resultEmbed] });
-    });
-  }
+      collector.on('end', async () => {
+        const resultEmbed = buildResultEmbed(question, shuffledOptions, answeredUsers, mode);
+        await channel.send({ embeds: [resultEmbed] });
+        resolve();
+      });
+    }
+  });
 }
 
 module.exports = { runQuizRound, getRandomQuestion };
