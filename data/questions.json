@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "question": "Which period of Japanese history saw the rise of the samurai class as the dominant political force?",
+    "options": ["Nara Period", "Heian Period", "Kamakura Period", "Asuka Period"],
+    "answer": "Kamakura Period",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "question": "What was the name of the first permanent capital of Japan, established in 710 AD?",
+    "options": ["Kyoto", "Nara", "Osaka", "Fujiwara"],
+    "answer": "Nara",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "question": "The Meiji Restoration of 1868 restored power to which figure?",
+    "options": ["The Shogun", "The Emperor", "The Daimyo Council", "The Buddhist clergy"],
+    "answer": "The Emperor",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Which Tokugawa shogun is credited with unifying Japan and establishing the Edo period?",
+    "options": ["Tokugawa Yoshinobu", "Tokugawa Ieyasu", "Tokugawa Tsunayoshi", "Tokugawa Hidetada"],
+    "answer": "Tokugawa Ieyasu",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "The Battle of Sekigahara in 1600 was fought between which two major forces?",
+    "options": ["Tokugawa vs Toyotomi", "Oda vs Takeda", "Minamoto vs Taira", "Shimazu vs Date"],
+    "answer": "Tokugawa vs Toyotomi",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 6,
+    "question": "What was the name of Japan's military government led by a shogun?",
+    "options": ["Bakufu", "Daimyo", "Zaibatsu", "Kuge"],
+    "answer": "Bakufu",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "question": "Which Portuguese explorer is credited with introducing firearms to Japan in 1543?",
+    "options": ["Vasco da Gama", "Ferdinand Magellan", "Francisco Xavier", "The crew of a shipwrecked vessel"],
+    "answer": "The crew of a shipwrecked vessel",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "question": "The Heian period is most famous for the flourishing of what?",
+    "options": ["Military conquest", "Court culture and literature", "Maritime trade", "Buddhist temple construction"],
+    "answer": "Court culture and literature",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "question": "What was the Black Ships incident of 1853 associated with?",
+    "options": ["A Chinese invasion", "Commodore Perry forcing Japan to open trade", "A tsunami destroying the Edo coast", "A pirate siege of Nagasaki"],
+    "answer": "Commodore Perry forcing Japan to open trade",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "Which warlord nearly unified Japan before his assassination in 1582 at Honnoji Temple?",
+    "options": ["Toyotomi Hideyoshi", "Tokugawa Ieyasu", "Oda Nobunaga", "Takeda Shingen"],
+    "answer": "Oda Nobunaga",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "question": "What year did Japan attack Pearl Harbor?",
+    "options": ["1939", "1940", "1941", "1942"],
+    "answer": "1941",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Japan formally surrendered in World War II on the deck of which US ship?",
+    "options": ["USS Missouri", "USS Arizona", "USS Enterprise", "USS Nimitz"],
+    "answer": "USS Missouri",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "question": "The atomic bombs in 1945 were dropped on Hiroshima and which other city?",
+    "options": ["Tokyo", "Osaka", "Nagasaki", "Kyoto"],
+    "answer": "Nagasaki",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "What was the name of the code of ethics followed by samurai warriors?",
+    "options": ["Bushido", "Haiku", "Shintoism", "Kendo"],
+    "answer": "Bushido",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "The Genpei War (1180–1185) was fought between which two clans?",
+    "options": ["Oda and Tokugawa", "Minamoto and Taira", "Fujiwara and Ashikaga", "Shimazu and Mori"],
+    "answer": "Minamoto and Taira",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 16,
+    "question": "What is the traditional Japanese tea ceremony called?",
+    "options": ["Ikebana", "Chado", "Kabuki", "Noh"],
+    "answer": "Chado",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "question": "What does the word 'Kimono' literally translate to in English?",
+    "options": ["Silk garment", "Thing to wear", "Flowing robe", "Ancient dress"],
+    "answer": "Thing to wear",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "question": "Which traditional Japanese art form involves the arrangement of flowers?",
+    "options": ["Origami", "Ikebana", "Bonsai", "Sumi-e"],
+    "answer": "Ikebana",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "What is the name of Japan's indigenous religion?",
+    "options": ["Buddhism", "Shintoism", "Taoism", "Animism"],
+    "answer": "Shintoism",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "A Torii gate typically marks the entrance to what type of location?",
+    "options": ["Buddhist temple", "Shinto shrine", "Imperial palace", "Samurai estate"],
+    "answer": "Shinto shrine",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "What is the Japanese art of paper folding called?",
+    "options": ["Bonsai", "Haiku", "Origami", "Kintsugi"],
+    "answer": "Origami",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "Kabuki theater traditionally features performers of which gender?",
+    "options": ["Women only", "Men only", "Both equally", "Children only"],
+    "answer": "Men only",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "question": "What is the Japanese philosophy of finding beauty in imperfection and impermanence?",
+    "options": ["Zen", "Wabi-sabi", "Mono no aware", "Ikigai"],
+    "answer": "Wabi-sabi",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "question": "What is Kintsugi?",
+    "options": ["A sword-fighting style", "The art of repairing broken pottery with gold", "A type of Zen meditation", "Traditional silk dyeing"],
+    "answer": "The art of repairing broken pottery with gold",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "question": "What is the name of the traditional Japanese theater form that uses elaborate masks?",
+    "options": ["Kabuki", "Bunraku", "Noh", "Rakugo"],
+    "answer": "Noh",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "question": "What is the Japanese concept of a reason for being or purpose in life?",
+    "options": ["Wabi-sabi", "Mono no aware", "Ikigai", "Ma"],
+    "answer": "Ikigai",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "What is Bunraku?",
+    "options": ["Traditional Japanese puppet theater", "A form of martial arts", "A type of Japanese poetry", "A festival held in Osaka"],
+    "answer": "Traditional Japanese puppet theater",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 28,
+    "question": "The concept of 'Ma' in Japanese culture refers to what?",
+    "options": ["Harmony with nature", "Negative space or pause", "Respect for elders", "Military discipline"],
+    "answer": "Negative space or pause",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 29,
+    "question": "What is the name of the famous Zen rock garden located in Kyoto's Ryoanji Temple?",
+    "options": ["Karesansui", "Shakkei", "Tsukiyama", "Chaniwa"],
+    "answer": "Karesansui",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 30,
+    "question": "Which famous Japanese festival involves wearing yukata and watching fireworks in summer?",
+    "options": ["Tanabata", "Hanami", "Obon", "Hanabi Taikai"],
+    "answer": "Hanabi Taikai",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "What is Hanami?",
+    "options": ["A traditional wedding ceremony", "The practice of viewing cherry blossoms", "A harvest festival", "A form of calligraphy"],
+    "answer": "The practice of viewing cherry blossoms",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "question": "Obon is a Japanese festival that honors what?",
+    "options": ["The emperor's birthday", "The spirits of deceased ancestors", "The harvest season", "The new year"],
+    "answer": "The spirits of deceased ancestors",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "What is the name of the star festival celebrated on July 7th in Japan?",
+    "options": ["Obon", "Tanabata", "Setsubun", "Shichi-Go-San"],
+    "answer": "Tanabata",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "During Setsubun, what do Japanese people traditionally throw to drive away demons?",
+    "options": ["Rice", "Salt", "Soybeans", "Coins"],
+    "answer": "Soybeans",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "What does 'Shichi-Go-San' literally translate to?",
+    "options": ["Heaven, Earth, Man", "Seven-Five-Three", "Spring, Summer, Winter", "Past, Present, Future"],
+    "answer": "Seven-Five-Three",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "What is sushi traditionally wrapped in?",
+    "options": ["Rice paper", "Nori (seaweed)", "Bamboo leaves", "Tofu skin"],
+    "answer": "Nori (seaweed)",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 37,
+    "question": "What is the main difference between sushi and sashimi?",
+    "options": ["Sashimi uses cooked fish", "Sushi always includes rice while sashimi is just raw fish", "Sashimi is always vegetarian", "Sushi uses only tuna"],
+    "answer": "Sushi always includes rice while sashimi is just raw fish",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "question": "What type of noodle is ramen made from?",
+    "options": ["Rice noodles", "Wheat noodles", "Buckwheat noodles", "Glass noodles"],
+    "answer": "Wheat noodles",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 39,
+    "question": "Soba noodles are made primarily from which grain?",
+    "options": ["Wheat", "Rice", "Buckwheat", "Barley"],
+    "answer": "Buckwheat",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 40,
+    "question": "What is miso made from?",
+    "options": ["Fermented rice", "Fermented soybeans", "Fermented barley", "Fermented seaweed"],
+    "answer": "Fermented soybeans",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 41,
+    "question": "What is the Japanese alcoholic drink made from fermented rice called?",
+    "options": ["Shochu", "Sake", "Umeshu", "Amazake"],
+    "answer": "Sake",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 42,
+    "question": "What is Tempura?",
+    "options": ["Grilled fish on skewers", "Seafood or vegetables in light batter, deep fried", "Fermented rice dish", "Slow-cooked pork belly"],
+    "answer": "Seafood or vegetables in light batter, deep fried",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 43,
+    "question": "Tonkatsu is a Japanese dish made from what?",
+    "options": ["Breaded and fried pork cutlet", "Grilled chicken skewers", "Raw tuna on rice", "Beef hot pot"],
+    "answer": "Breaded and fried pork cutlet",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 44,
+    "question": "What is Wagyu famous for?",
+    "options": ["Being the cheapest beef in Japan", "Its intense marbling and richness", "Being a type of seafood", "Its unique blue color"],
+    "answer": "Its intense marbling and richness",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 45,
+    "question": "What is Yakitori?",
+    "options": ["Grilled chicken skewers", "Fried tofu dish", "Pickled vegetables", "Steamed rice dumplings"],
+    "answer": "Grilled chicken skewers",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "question": "Matcha is a powdered form of which type of tea?",
+    "options": ["Black tea", "Oolong tea", "Green tea", "White tea"],
+    "answer": "Green tea",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 47,
+    "question": "What is Okonomiyaki often described as?",
+    "options": ["Japanese pizza or savory pancake", "A type of sushi roll", "Sweet rice cake", "Grilled fish on rice"],
+    "answer": "Japanese pizza or savory pancake",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "What is the Japanese comfort food 'Onigiri'?",
+    "options": ["Fried dumplings", "Rice balls often wrapped in seaweed", "Noodle soup", "Grilled eggplant"],
+    "answer": "Rice balls often wrapped in seaweed",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 49,
+    "question": "Fugu is a famous and potentially dangerous Japanese delicacy made from what?",
+    "options": ["Blowfish", "Giant spider crab", "Sea urchin", "Jellyfish"],
+    "answer": "Blowfish",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "What is Umami?",
+    "options": ["A type of Japanese dessert", "The fifth basic taste, described as savory", "A spice used in ramen", "A type of sake"],
+    "answer": "The fifth basic taste, described as savory",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 51,
+    "question": "Natto is a traditional Japanese food made from fermented what?",
+    "options": ["Fish", "Soybeans", "Rice", "Seaweed"],
+    "answer": "Soybeans",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 52,
+    "question": "What is the name of Japan's iconic dish of thin slices of beef cooked in broth at the table?",
+    "options": ["Yakiniku", "Shabu-shabu", "Sukiyaki", "Nabe"],
+    "answer": "Shabu-shabu",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "question": "What is Mount Fuji's approximate height?",
+    "options": ["2,776m", "3,376m", "3,776m", "4,176m"],
+    "answer": "3,776m",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "question": "How many main islands make up the Japanese archipelago?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 55,
+    "question": "What is the southernmost of Japan's four main islands?",
+    "options": ["Hokkaido", "Honshu", "Shikoku", "Kyushu"],
+    "answer": "Kyushu",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 56,
+    "question": "What is the northernmost of Japan's four main islands?",
+    "options": ["Hokkaido", "Honshu", "Shikoku", "Kyushu"],
+    "answer": "Hokkaido",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 57,
+    "question": "Which city is known as the 'City of a Thousand Years' and served as Japan's imperial capital for over 1,000 years?",
+    "options": ["Tokyo", "Nara", "Osaka", "Kyoto"],
+    "answer": "Kyoto",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 58,
+    "question": "What was Tokyo called before it became the capital in 1869?",
+    "options": ["Kyoto", "Edo", "Osaka", "Kamakura"],
+    "answer": "Edo",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 59,
+    "question": "The famous Hiroshima Peace Memorial (Genbaku Dome) was formerly what type of building?",
+    "options": ["A government office", "A Buddhist temple", "A commercial exhibition hall", "A military barracks"],
+    "answer": "A commercial exhibition hall",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "Himeji Castle is located in which Japanese prefecture?",
+    "options": ["Osaka", "Kyoto", "Hyogo", "Nara"],
+    "answer": "Hyogo",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "What is the name of the famous floating torii gate located in Hiroshima Prefecture?",
+    "options": ["Fushimi Inari", "Itsukushima", "Meiji Jingu", "Yasukuni"],
+    "answer": "Itsukushima",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 62,
+    "question": "Japan sits on the 'Ring of Fire.' How many active volcanoes does it have approximately?",
+    "options": ["10", "50", "110", "200"],
+    "answer": "110",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "Which city hosted the 1964 Summer Olympics?",
+    "options": ["Osaka", "Tokyo", "Kyoto", "Sapporo"],
+    "answer": "Tokyo",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 64,
+    "question": "The Seto Inland Sea lies between Honshu and which other island?",
+    "options": ["Hokkaido", "Kyushu and Shikoku", "Okinawa", "Tsushima"],
+    "answer": "Kyushu and Shikoku",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "Which Japanese prefecture is famous for its Ryukyu culture and distinct history?",
+    "options": ["Okinawa", "Hokkaido", "Aichi", "Nagano"],
+    "answer": "Okinawa",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "question": "What is the name of the ancient road that connected Kyoto to Tokyo during the Edo period?",
+    "options": ["Tokaido", "Nakasendo", "Sanin Road", "Koshu Kaido"],
+    "answer": "Tokaido",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 67,
+    "question": "What is the name of Studio Ghibli's most famous film, featuring a young girl who enters a spirit world?",
+    "options": ["My Neighbor Totoro", "Princess Mononoke", "Spirited Away", "Howl's Moving Castle"],
+    "answer": "Spirited Away",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 68,
+    "question": "Who co-founded Studio Ghibli?",
+    "options": ["Akira Kurosawa", "Hayao Miyazaki", "Mamoru Hosoda", "Satoshi Kon"],
+    "answer": "Hayao Miyazaki",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 69,
+    "question": "Which video game company created Mario and Zelda?",
+    "options": ["Sega", "Sony", "Nintendo", "Capcom"],
+    "answer": "Nintendo",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 70,
+    "question": "What is the name of the fictional city in the anime 'Attack on Titan' where humanity lives behind walls?",
+    "options": ["Trost", "Shiganshina", "Paradis Island", "Stohess"],
+    "answer": "Paradis Island",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 71,
+    "question": "Dragon Ball was created by which manga artist?",
+    "options": ["Masashi Kishimoto", "Eiichiro Oda", "Akira Toriyama", "Tite Kubo"],
+    "answer": "Akira Toriyama",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 72,
+    "question": "One Piece follows the adventures of Monkey D. Luffy seeking what?",
+    "options": ["The legendary sword Excalibur", "The ultimate treasure called the One Piece", "The last dragon on Earth", "A map to the underworld"],
+    "answer": "The ultimate treasure called the One Piece",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 73,
+    "question": "The Pokémon franchise began as a game for which console?",
+    "options": ["Super Nintendo", "Game Boy", "Sega Genesis", "PlayStation"],
+    "answer": "Game Boy",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 74,
+    "question": "What does 'Anime' technically mean in Japan?",
+    "options": ["Japanese cartoon", "All animation", "Hand-drawn cartoon", "Children's show"],
+    "answer": "All animation",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 75,
+    "question": "Which director made the classic Japanese film 'Seven Samurai' (1954)?",
+    "options": ["Yasujiro Ozu", "Kenji Mizoguchi", "Akira Kurosawa", "Nagisa Oshima"],
+    "answer": "Akira Kurosawa",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 76,
+    "question": "Which Japanese monster franchise features Godzilla?",
+    "options": ["Ultraman", "Kaiju Eiga", "Tokusatsu", "Toho"],
+    "answer": "Toho",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 77,
+    "question": "What is the Japanese term for comics or graphic novels?",
+    "options": ["Anime", "Manga", "Doujinshi", "Light Novel"],
+    "answer": "Manga",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 78,
+    "question": "Harajuku is famous worldwide for what?",
+    "options": ["Traditional samurai reenactments", "Unique youth street fashion", "The largest fish market", "Historical castle ruins"],
+    "answer": "Unique youth street fashion",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 79,
+    "question": "What is the name of the famous maid cafe district in Tokyo?",
+    "options": ["Shibuya", "Shinjuku", "Akihabara", "Harajuku"],
+    "answer": "Akihabara",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 80,
+    "question": "Which Japanese pop group is famous for having many interchangeable members and fan election events?",
+    "options": ["BABYMETAL", "Perfume", "AKB48", "Morning Musume"],
+    "answer": "AKB48",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 81,
+    "question": "What is a 'Gacha' game mechanic?",
+    "options": ["Turn-based battle system", "Random loot/character drawn for in-game currency", "Open world exploration", "Rhythm-based gameplay"],
+    "answer": "Random loot/character drawn for in-game currency",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 82,
+    "question": "Which sport is considered Japan's national pastime?",
+    "options": ["Sumo", "Baseball", "Soccer", "Kendo"],
+    "answer": "Baseball",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 83,
+    "question": "What is the highest rank in sumo wrestling?",
+    "options": ["Ozeki", "Sekiwake", "Yokozuna", "Maegashira"],
+    "answer": "Yokozuna",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 84,
+    "question": "What is the Japanese practice of 'Kaizen' about?",
+    "options": ["Sudden radical change", "Continuous incremental improvement", "Military discipline", "Corporate restructuring"],
+    "answer": "Continuous incremental improvement",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 85,
+    "question": "What does 'Senpai' mean in Japanese culture?",
+    "options": ["A close friend of equal age", "An older or more experienced person", "A teacher or professor", "A respected elder family member"],
+    "answer": "An older or more experienced person",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 86,
+    "question": "What is the Japanese term for a company worker or businessman who works extremely long hours?",
+    "options": ["Hikikomori", "Salaryman", "Ronin", "Otaku"],
+    "answer": "Salaryman",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "question": "What is 'Hikikomori' in Japan?",
+    "options": ["Extreme social withdrawal and isolation", "A type of martial arts training", "A summer festival custom", "A Buddhist meditation practice"],
+    "answer": "Extreme social withdrawal and isolation",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 88,
+    "question": "What does 'Ganbatte' mean in Japanese?",
+    "options": ["Good morning", "Do your best / Keep going", "Thank you very much", "I'm sorry"],
+    "answer": "Do your best / Keep going",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 89,
+    "question": "What is the Japanese term for a person with obsessive interests, particularly in anime and manga?",
+    "options": ["Hikikomori", "Salaryman", "Otaku", "Ronin"],
+    "answer": "Otaku",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 90,
+    "question": "In Japan, what is considered rude to do while eating or walking?",
+    "options": ["Using chopsticks", "Slurping noodles", "Talking on a phone", "All of the above"],
+    "answer": "Talking on a phone",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 91,
+    "question": "What is a 'Konbini' in Japan?",
+    "options": ["A type of hot spring", "A convenience store", "A traditional inn", "A bullet train"],
+    "answer": "A convenience store",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 92,
+    "question": "Japan's Shinkansen is more commonly known in English as what?",
+    "options": ["The Metro", "The Bullet Train", "The Express", "The Maglev"],
+    "answer": "The Bullet Train",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 93,
+    "question": "What is a 'Ryokan'?",
+    "options": ["A type of martial art", "A traditional Japanese inn", "A sake brewery", "A Shinto prayer ritual"],
+    "answer": "A traditional Japanese inn",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "question": "What does bowing signify in Japanese culture?",
+    "options": ["A sign of weakness", "Greeting, respect, or apology", "A martial arts stance", "Only used in worship"],
+    "answer": "Greeting, respect, or apology",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 95,
+    "question": "What is an 'Onsen'?",
+    "options": ["A Japanese garden", "A natural hot spring bath", "A mountain shrine", "A traditional craft market"],
+    "answer": "A natural hot spring bath",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 96,
+    "question": "What is 'Hanko' used for in Japan?",
+    "options": ["A type of traditional sword", "A personal seal used instead of a signature", "A special festival lantern", "A form of currency"],
+    "answer": "A personal seal used instead of a signature",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 97,
+    "question": "Which martial art literally means 'the way of the sword' and uses bamboo swords?",
+    "options": ["Judo", "Aikido", "Kendo", "Iaido"],
+    "answer": "Kendo",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 98,
+    "question": "What is Judo's founding philosophy focused on?",
+    "options": ["Maximum force", "Striking techniques", "Maximum efficiency, minimum effort", "Weapon mastery"],
+    "answer": "Maximum efficiency, minimum effort",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 99,
+    "question": "The art of Karate originated from which island before spreading to mainland Japan?",
+    "options": ["Hokkaido", "Okinawa", "Tsushima", "Sado"],
+    "answer": "Okinawa",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 100,
+    "question": "What is a haiku?",
+    "options": ["A form of Japanese dance", "A 17-syllable poem in three lines", "A type of calligraphy", "A musical instrument"],
+    "answer": "A 17-syllable poem in three lines",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 101,
+    "question": "Which famous haiku poet wrote 'The old pond; a frog jumps in — sound of water'?",
+    "options": ["Yosa Buson", "Matsuo Basho", "Kobayashi Issa", "Masaoka Shiki"],
+    "answer": "Matsuo Basho",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 102,
+    "question": "What is the classic Japanese novel 'The Tale of Genji' considered?",
+    "options": ["The first manga", "Possibly the world's first novel", "The oldest haiku collection", "The first samurai epic"],
+    "answer": "Possibly the world's first novel",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "question": "Who wrote 'The Tale of Genji' around 1000 AD?",
+    "options": ["Sei Shonagon", "Murasaki Shikibu", "Lady Nijo", "Izumi Shikibu"],
+    "answer": "Murasaki Shikibu",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 104,
+    "question": "What is the 'Pillow Book' (Makura no Soshi)?",
+    "options": ["A book of Buddhist prayers", "A collection of observations and musings by Heian court lady Sei Shonagon", "An illustrated guide to origami", "A military strategy manual"],
+    "answer": "A collection of observations and musings by Heian court lady Sei Shonagon",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 105,
+    "question": "What art style was developed in the Edo period featuring woodblock prints of everyday life?",
+    "options": ["Sumi-e", "Ukiyo-e", "Yamato-e", "Kara-e"],
+    "answer": "Ukiyo-e",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 106,
+    "question": "The famous woodblock print 'The Great Wave off Kanagawa' was created by which artist?",
+    "options": ["Hiroshige", "Utamaro", "Hokusai", "Sharaku"],
+    "answer": "Hokusai",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 107,
+    "question": "What is 'Sumi-e'?",
+    "options": ["Japanese ink wash painting", "A form of wood carving", "Traditional textile dyeing", "Lacquerware decoration"],
+    "answer": "Japanese ink wash painting",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 108,
+    "question": "What was Japan's policy of national isolation from 1633 to 1853 called?",
+    "options": ["Meiji", "Sakoku", "Bakuhan", "Shogunate"],
+    "answer": "Sakoku",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 109,
+    "question": "During the Edo period's Sakoku policy, which was the only port open to foreign traders?",
+    "options": ["Kobe", "Yokohama", "Nagasaki", "Osaka"],
+    "answer": "Nagasaki",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 110,
+    "question": "What is the name of the Japanese samurai code that required death by ritual suicide over dishonor?",
+    "options": ["Harakiri / Seppuku", "Kamikaze", "Banzai", "Tenno"],
+    "answer": "Harakiri / Seppuku",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 111,
+    "question": "What does 'Kamikaze' literally mean?",
+    "options": ["Sacred warrior", "Divine wind", "Eternal sacrifice", "Spirit of the emperor"],
+    "answer": "Divine wind",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 112,
+    "question": "The 47 Ronin is a famous tale of samurai loyalty. What were the ronin avenging?",
+    "options": ["The death of their emperor", "The forced death of their master Lord Asano", "A betrayal at Sekigahara", "The fall of the Tokugawa shogunate"],
+    "answer": "The forced death of their master Lord Asano",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 113,
+    "question": "A 'Ronin' was a samurai who had lost or left whose service?",
+    "options": ["The Emperor's", "Their master's (daimyo)", "The shogun's", "Their clan's"],
+    "answer": "Their master's (daimyo)",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 114,
+    "question": "What was the primary role of Ninja in feudal Japan?",
+    "options": ["Front-line soldiers", "Spies and assassins", "Buddhist monks", "Tax collectors"],
+    "answer": "Spies and assassins",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 115,
+    "question": "What is the traditional home of a sumo wrestler's stable called?",
+    "options": ["Dojo", "Heya", "Zendo", "Honbu"],
+    "answer": "Heya",
+    "category": "society",
+    "difficulty": "hard"
+  },
+  {
+    "id": 116,
+    "question": "The 2011 earthquake and tsunami in Japan caused a disaster at which nuclear plant?",
+    "options": ["Kashiwazaki-Kariwa", "Hamaoka", "Fukushima Daiichi", "Sendai"],
+    "answer": "Fukushima Daiichi",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 117,
+    "question": "Japan's constitution, adopted after WWII, famously renounces what in Article 9?",
+    "options": ["The right to vote", "War as a means to settle disputes", "The imperial family's divine status", "Capital punishment"],
+    "answer": "War as a means to settle disputes",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "question": "What is the name of the Japanese parliament?",
+    "options": ["Kokukai", "Kokkai (Diet)", "Jiyuto", "Seijikai"],
+    "answer": "Kokkai (Diet)",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "question": "Japan's current imperial era, which began in 2019 with Emperor Naruhito's ascension, is called what?",
+    "options": ["Heisei", "Showa", "Reiwa", "Meiji"],
+    "answer": "Reiwa",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 120,
+    "question": "What does 'Reiwa' roughly translate to in English?",
+    "options": ["Rising Sun", "Beautiful Harmony", "Eternal Peace", "New Dawn"],
+    "answer": "Beautiful Harmony",
+    "category": "society",
+    "difficulty": "hard"
+  },
+  {
+    "id": 121,
+    "question": "What is the name of the traditional Japanese wooden sandal?",
+    "options": ["Tabi", "Geta", "Zori", "Waraji"],
+    "answer": "Geta",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 122,
+    "question": "What is Noren?",
+    "options": ["A type of soup", "A fabric divider hung in doorways of shops and homes", "A festival drum", "A calligraphy brush"],
+    "answer": "A fabric divider hung in doorways of shops and homes",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 123,
+    "question": "What is the Japanese concept of 'Mono no Aware'?",
+    "options": ["The beauty of strength", "The bittersweet awareness of impermanence", "The joy of achievement", "The harmony of opposites"],
+    "answer": "The bittersweet awareness of impermanence",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 124,
+    "question": "What is the name of the traditional Japanese wrestling sport?",
+    "options": ["Judo", "Kendo", "Sumo", "Aikido"],
+    "answer": "Sumo",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 125,
+    "question": "What do sumo wrestlers eat to gain weight?",
+    "options": ["Ramen twice daily", "Chankonabe (a protein-rich stew)", "Only rice and fish", "Wagyu beef daily"],
+    "answer": "Chankonabe (a protein-rich stew)",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 126,
+    "question": "What is the traditional Japanese instrument that resembles a long wooden flute?",
+    "options": ["Koto", "Shamisen", "Shakuhachi", "Taiko"],
+    "answer": "Shakuhachi",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 127,
+    "question": "The Koto is a traditional Japanese musical instrument of which type?",
+    "options": ["Wind", "Percussion", "String", "Brass"],
+    "answer": "String",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 128,
+    "question": "What is the Shamisen?",
+    "options": ["A three-stringed Japanese instrument played with a plectrum", "A large ceremonial drum", "A bamboo flute", "A type of bell used in temples"],
+    "answer": "A three-stringed Japanese instrument played with a plectrum",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 129,
+    "question": "What are Taiko?",
+    "options": ["Traditional Japanese drums", "Wooden sandals", "Folding screens", "Lacquer boxes"],
+    "answer": "Traditional Japanese drums",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 130,
+    "question": "What is 'Nishiki-e'?",
+    "options": ["A type of green tea", "Multi-colored woodblock printing", "Formal court music", "Silk embroidery"],
+    "answer": "Multi-colored woodblock printing",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 131,
+    "question": "Fushimi Inari Taisha in Kyoto is famous for its thousands of what?",
+    "options": ["Stone lanterns", "Koi ponds", "Orange torii gates", "Cherry blossom trees"],
+    "answer": "Orange torii gates",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 132,
+    "question": "What is Arashiyama famous for in Kyoto?",
+    "options": ["A massive castle", "A bamboo grove", "An ancient burial mound", "A floating market"],
+    "answer": "A bamboo grove",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 133,
+    "question": "What is the Shibuya Crossing in Tokyo famous for?",
+    "options": ["Being the oldest bridge in Tokyo", "Being one of the busiest pedestrian crossings in the world", "A famous flea market", "A historic samurai battleground"],
+    "answer": "Being one of the busiest pedestrian crossings in the world",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 134,
+    "question": "Osaka is nicknamed what?",
+    "options": ["City of Shrines", "Nation's Kitchen", "City of Water", "Eastern Capital"],
+    "answer": "Nation's Kitchen",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "question": "What is the famous deer park city in Japan where deer roam freely?",
+    "options": ["Kamakura", "Nikko", "Nara", "Nikko"],
+    "answer": "Nara",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 136,
+    "question": "Which ancient Japanese capital is known for its giant Buddha statue (Daibutsu)?",
+    "options": ["Kyoto", "Nara", "Kamakura", "Both Nara and Kamakura"],
+    "answer": "Both Nara and Kamakura",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "question": "Japan's snow monkeys (Japanese macaques) are famous for doing what in winter?",
+    "options": ["Hibernating underground", "Bathing in hot springs", "Building snow shelters", "Migrating south"],
+    "answer": "Bathing in hot springs",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 138,
+    "question": "What is the traditional Japanese sport of archery on horseback called?",
+    "options": ["Kyudo", "Yabusame", "Kendo", "Naginatajutsu"],
+    "answer": "Yabusame",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 139,
+    "question": "What is Kyudo?",
+    "options": ["Japanese fencing", "The way of the bow — Japanese archery", "Sumo wrestling training", "Classical Japanese dance"],
+    "answer": "The way of the bow — Japanese archery",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 140,
+    "question": "What is a 'Daimyo'?",
+    "options": ["A wandering monk", "A powerful feudal lord", "A master swordsmith", "A Shinto high priest"],
+    "answer": "A powerful feudal lord",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 141,
+    "question": "What major economic policy did Japan pursue in the Meiji era to rapidly industrialize?",
+    "options": ["Closed borders and self-sufficiency", "Rapid Westernization and importing foreign technology", "Agricultural reform only", "Military expansion first"],
+    "answer": "Rapid Westernization and importing foreign technology",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 142,
+    "question": "Japan was under US occupation from 1945 until which year?",
+    "options": ["1948", "1952", "1955", "1960"],
+    "answer": "1952",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 143,
+    "question": "What was the Japanese economic miracle?",
+    "options": ["Japan's rapid rebuilding and growth after WWII", "The discovery of oil in Hokkaido", "Japan winning the 1964 Olympics bid", "The invention of the Shinkansen"],
+    "answer": "Japan's rapid rebuilding and growth after WWII",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 144,
+    "question": "Which Japanese company is the world's largest video game company by revenue as of the early 2000s?",
+    "options": ["Sega", "Capcom", "Nintendo", "Sony"],
+    "answer": "Nintendo",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 145,
+    "question": "Sony's PlayStation console was first released in which year?",
+    "options": ["1991", "1993", "1994", "1996"],
+    "answer": "1994",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 146,
+    "question": "What famous Japanese franchise features creatures that trainers capture and battle?",
+    "options": ["Digimon", "Yokai Watch", "Pokémon", "Monster Hunter"],
+    "answer": "Pokémon",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 147,
+    "question": "What is Comiket?",
+    "options": ["A professional manga awards show", "The world's largest self-published comic convention held in Tokyo", "Japan's national comic library", "A monthly manga magazine"],
+    "answer": "The world's largest self-published comic convention held in Tokyo",
+    "category": "popculture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 148,
+    "question": "Which legendary game designer created The Legend of Zelda and Mario?",
+    "options": ["Hideo Kojima", "Yuji Naka", "Shigeru Miyamoto", "Hironobu Sakaguchi"],
+    "answer": "Shigeru Miyamoto",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "question": "What is Hideo Kojima famous for creating?",
+    "options": ["Final Fantasy series", "Metal Gear series", "Resident Evil series", "Street Fighter series"],
+    "answer": "Metal Gear series",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "question": "What does 'J-Pop' stand for?",
+    "options": ["Japanese Popularity music", "Japanese Pop music", "Junior Pop", "Japan Pop Charts"],
+    "answer": "Japanese Pop music",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 151,
+    "question": "What is the traditional Japanese garment worn at festivals and in summer called?",
+    "options": ["Hakama", "Yukata", "Haori", "Furisode"],
+    "answer": "Yukata",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 152,
+    "question": "What is the name of the formal divided skirt-like trousers worn by samurai?",
+    "options": ["Kimono", "Hakama", "Haori", "Obi"],
+    "answer": "Hakama",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 153,
+    "question": "The Obi is which part of a traditional kimono outfit?",
+    "options": ["The outer jacket", "The wide belt or sash", "The inner robe", "The decorative collar"],
+    "answer": "The wide belt or sash",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 154,
+    "question": "What is a 'Geisha'?",
+    "options": ["A female ninja warrior", "A highly trained female entertainer skilled in arts and conversation", "A Buddhist nun", "A female sumo wrestler"],
+    "answer": "A highly trained female entertainer skilled in arts and conversation",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 155,
+    "question": "What is the apprentice stage of a geisha called?",
+    "options": ["Hangyoku", "Maiko", "Odori", "Okasan"],
+    "answer": "Maiko",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 156,
+    "question": "What is the traditional Japanese inn where guests sleep on futons on tatami floors?",
+    "options": ["Hotel", "Capsule hotel", "Ryokan", "Minshuku"],
+    "answer": "Ryokan",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 157,
+    "question": "What is a 'Tatami' room?",
+    "options": ["A room with heated floors", "A room floored with woven straw mats", "A meditation chamber", "A room for tea ceremonies only"],
+    "answer": "A room floored with woven straw mats",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 158,
+    "question": "What is the Japanese concept of 'Omotenashi'?",
+    "options": ["Military honor", "Wholehearted hospitality with no expectation of reward", "Seasonal food traditions", "Gift-giving customs"],
+    "answer": "Wholehearted hospitality with no expectation of reward",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 159,
+    "question": "What is 'Zazen'?",
+    "options": ["A form of kendo sparring", "Seated Zen meditation", "A type of Japanese garden", "A Buddhist chanting ritual"],
+    "answer": "Seated Zen meditation",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 160,
+    "question": "Zen Buddhism was introduced to Japan from which country?",
+    "options": ["India", "Tibet", "China", "Korea"],
+    "answer": "China",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 161,
+    "question": "What is 'Gagaku'?",
+    "options": ["Traditional Japanese court music", "A type of Japanese wrestling", "Classical Japanese poetry", "A Shinto purification ritual"],
+    "answer": "Traditional Japanese court music",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 162,
+    "question": "What is 'Rakugo'?",
+    "options": ["A form of calligraphy", "Japanese comedic storytelling by a single seated performer", "A puppet theater style", "A form of street theater"],
+    "answer": "Japanese comedic storytelling by a single seated performer",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 163,
+    "question": "What is the world-famous Japanese bullet train system called?",
+    "options": ["Shinkansen", "JR Express", "Tokaido Limited", "Nozomi Rail"],
+    "answer": "Shinkansen",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 164,
+    "question": "Which Japanese car manufacturer is the world's largest automaker?",
+    "options": ["Honda", "Nissan", "Toyota", "Mazda"],
+    "answer": "Toyota",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 165,
+    "question": "The Sony Walkman, released in 1979, revolutionized which industry?",
+    "options": ["Home video", "Portable personal music", "Communications", "Photography"],
+    "answer": "Portable personal music",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 166,
+    "question": "What is the Japanese practice of 'Forest Bathing' called?",
+    "options": ["Shinrin-yoku", "Satoyama", "Furusato", "Yama-aruki"],
+    "answer": "Shinrin-yoku",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 167,
+    "question": "What is Japan's traditional craft of lacquerware called?",
+    "options": ["Urushi", "Kutani", "Imari", "Raku"],
+    "answer": "Urushi",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 168,
+    "question": "What type of poem has the structure 5-7-5-7-7 syllables?",
+    "options": ["Haiku", "Tanka", "Renga", "Senryu"],
+    "answer": "Tanka",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 169,
+    "question": "What is the first Shinkansen line, opened in 1964, called?",
+    "options": ["Sanyo Line", "Tokaido Shinkansen", "Tohoku Shinkansen", "Joetsu Shinkansen"],
+    "answer": "Tokaido Shinkansen",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 170,
+    "question": "What is the name of Japan's famous animated film studio behind Spirited Away and Princess Mononoke?",
+    "options": ["Toei Animation", "Sunrise", "Studio Ghibli", "Kyoto Animation"],
+    "answer": "Studio Ghibli",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 171,
+    "question": "Which war did Japan fight against Russia in 1904-1905?",
+    "options": ["First Sino-Japanese War", "Russo-Japanese War", "Boxer War", "Pacific War"],
+    "answer": "Russo-Japanese War",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 172,
+    "question": "Japan's victory in the Russo-Japanese War was significant because it was one of the first times in the modern era that an Asian nation defeated what?",
+    "options": ["A North American power", "A major European power", "A combined East Asian coalition", "An Ottoman force"],
+    "answer": "A major European power",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 173,
+    "question": "What is the Sino-Japanese War of 1894-1895 primarily about?",
+    "options": ["Control over the Korean peninsula", "Control of Manchuria", "Trade routes in Southeast Asia", "Border disputes over Taiwan"],
+    "answer": "Control over the Korean peninsula",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 174,
+    "question": "The Meiji government abolished which social class in 1871?",
+    "options": ["Merchants", "Farmers", "Samurai", "Buddhist priests"],
+    "answer": "Samurai",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 175,
+    "question": "What was the Satsuma Rebellion of 1877?",
+    "options": ["A peasant uprising against taxes", "The last major samurai uprising against the Meiji government", "A naval battle with China", "A coup attempt against the emperor"],
+    "answer": "The last major samurai uprising against the Meiji government",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 176,
+    "question": "The Last Samurai film loosely depicts which historical event?",
+    "options": ["The Battle of Sekigahara", "The Satsuma Rebellion", "The Boshin War", "The opening of Japan"],
+    "answer": "The Satsuma Rebellion",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 177,
+    "question": "What is the name of Japan's ancient imperial chronicles, compiled in 712 AD?",
+    "options": ["Nihon Shoki", "Kojiki", "Man'yoshu", "Genji Monogatari"],
+    "answer": "Kojiki",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 178,
+    "question": "Who is the sun goddess at the center of Shinto mythology?",
+    "options": ["Izanami", "Amaterasu", "Benzaiten", "Inari"],
+    "answer": "Amaterasu",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 179,
+    "question": "In Shinto, what are the gods or spirits called?",
+    "options": ["Yokai", "Kami", "Oni", "Tengu"],
+    "answer": "Kami",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 180,
+    "question": "What is an 'Oni' in Japanese folklore?",
+    "options": ["A fox spirit", "A demon or ogre", "A river spirit", "A lucky cat"],
+    "answer": "A demon or ogre",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 181,
+    "question": "What is a 'Kitsune' in Japanese mythology?",
+    "options": ["A dragon", "A fox with magical powers", "A shape-shifting raccoon dog", "A water demon"],
+    "answer": "A fox with magical powers",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 182,
+    "question": "What is a 'Tanuki' in Japanese folklore?",
+    "options": ["A magical fox", "A raccoon dog with shape-shifting powers", "A river kappa", "A mountain tengu"],
+    "answer": "A raccoon dog with shape-shifting powers",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 183,
+    "question": "What is a 'Kappa'?",
+    "options": ["A mountain goblin", "A water creature in Japanese folklore", "A type of Noh mask", "A feudal tax collector"],
+    "answer": "A water creature in Japanese folklore",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 184,
+    "question": "What does the Maneki-neko (beckoning cat) figurine symbolize?",
+    "options": ["Protection from evil", "Good luck and fortune", "Long life", "Wisdom"],
+    "answer": "Good luck and fortune",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 185,
+    "question": "What does the left paw raised on a Maneki-neko signify vs the right paw?",
+    "options": ["Left = wealth, Right = customers", "Left = customers, Right = wealth", "They mean the same thing", "Left = luck, Right = protection"],
+    "answer": "Left = customers, Right = wealth",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 186,
+    "question": "What is 'Daruma'?",
+    "options": ["A type of ramen", "A round red doll used for goal-setting, based on a Buddhist monk", "A good luck charm for fishing", "A children's festival toy"],
+    "answer": "A round red doll used for goal-setting, based on a Buddhist monk",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 187,
+    "question": "What is the famous district in Kyoto known for geisha culture?",
+    "options": ["Nishiki", "Gion", "Pontocho", "Arashiyama"],
+    "answer": "Gion",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 188,
+    "question": "What is Dotonbori famous for in Osaka?",
+    "options": ["Its castle and moat", "Its vibrant nightlife, food, and neon signs", "Its ancient shrine complex", "Its samurai history museum"],
+    "answer": "Its vibrant nightlife, food, and neon signs",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 189,
+    "question": "What is the famous covered shopping street in Japan called?",
+    "options": ["Depato", "Shotengai", "Konbini", "Arcade"],
+    "answer": "Shotengai",
+    "category": "society",
+    "difficulty": "hard"
+  },
+  {
+    "id": 190,
+    "question": "What is the name of the annual autumn festival in Nikko famous for a grand procession of samurai?",
+    "options": ["Gion Matsuri", "Yayoi Festival", "Grand Festival of Toshogu", "Aoi Matsuri"],
+    "answer": "Grand Festival of Toshogu",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 191,
+    "question": "Which of Japan's 'three great festivals' is held in Kyoto in July?",
+    "options": ["Tenjin Matsuri", "Gion Matsuri", "Kanda Matsuri", "Aoi Matsuri"],
+    "answer": "Gion Matsuri",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 192,
+    "question": "What is the famous wooden stage that appears to float over a hillside in Kyoto?",
+    "options": ["Kinkakuji", "Kiyomizudera", "Ryoanji", "Nijo Castle"],
+    "answer": "Kiyomizudera",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 193,
+    "question": "What is the Golden Pavilion in Kyoto called?",
+    "options": ["Ginkakuji", "Kinkakuji", "Byodoin", "Nijo-jo"],
+    "answer": "Kinkakuji",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 194,
+    "question": "Kinkakuji's upper floors are covered in what?",
+    "options": ["Silver leaf", "Gold leaf", "Copper plating", "White lacquer"],
+    "answer": "Gold leaf",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 195,
+    "question": "What is the 'Silver Pavilion' in Kyoto called?",
+    "options": ["Kinkakuji", "Ginkakuji", "Ryoanji", "Nanzenji"],
+    "answer": "Ginkakuji",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 196,
+    "question": "Japan's national flower is the cherry blossom. What is it called in Japanese?",
+    "options": ["Ume", "Sakura", "Hana", "Bara"],
+    "answer": "Sakura",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 197,
+    "question": "What is 'Wasabi' made from?",
+    "options": ["Horseradish root", "Japanese mustard plant", "Wasabia japonica plant rhizome", "Ground green pepper"],
+    "answer": "Wasabia japonica plant rhizome",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 198,
+    "question": "What is the Japanese dish of rice cooked and seasoned in a clay pot called?",
+    "options": ["Donburi", "Ochazuke", "Takikomi gohan", "Kayu"],
+    "answer": "Takikomi gohan",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "id": 199,
+    "question": "What is 'Dashi'?",
+    "options": ["A type of soy sauce", "A Japanese stock or broth used as a base in many dishes", "A pickled vegetable condiment", "A type of miso paste"],
+    "answer": "A Japanese stock or broth used as a base in many dishes",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 200,
+    "question": "What fermented rice drink is traditionally consumed at New Year in Japan?",
+    "options": ["Sake", "Amazake", "Shochu", "Umeshu"],
+    "answer": "Amazake",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "id": 201,
+    "question": "What is 'Kaiseki'?",
+    "options": ["A fast food chain", "A multi-course traditional Japanese haute cuisine", "A type of street food", "A casual rice bowl"],
+    "answer": "A multi-course traditional Japanese haute cuisine",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 202,
+    "question": "Sapporo is famous for which style of ramen?",
+    "options": ["Shoyu (soy sauce)", "Shio (salt)", "Miso", "Tonkotsu (pork bone)"],
+    "answer": "Miso",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "id": 203,
+    "question": "Hakata ramen, from Fukuoka, uses which type of broth?",
+    "options": ["Miso", "Shio", "Shoyu", "Tonkotsu"],
+    "answer": "Tonkotsu",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "id": 204,
+    "question": "What is 'Gyoza'?",
+    "options": ["A type of sushi roll", "Japanese pan-fried dumplings", "Deep fried tofu", "Grilled eggplant"],
+    "answer": "Japanese pan-fried dumplings",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 205,
+    "question": "What is Takoyaki?",
+    "options": ["Grilled octopus sashimi", "Ball-shaped snacks filled with octopus pieces", "Octopus rice bowl", "Deep fried squid"],
+    "answer": "Ball-shaped snacks filled with octopus pieces",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 206,
+    "question": "What is 'Edamame'?",
+    "options": ["Pickled radish", "Young soybeans still in the pod", "Seaweed salad", "Fermented soybeans"],
+    "answer": "Young soybeans still in the pod",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 207,
+    "question": "Umeshu is made by steeping what in alcohol?",
+    "options": ["Plums", "Peaches", "Persimmons", "Yuzu citrus"],
+    "answer": "Plums",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 208,
+    "question": "What is 'Katsuobushi'?",
+    "options": ["Dried and fermented skipjack tuna shavings used in dashi", "A type of pickled cabbage", "A fermented soybean paste", "A type of seaweed"],
+    "answer": "Dried and fermented skipjack tuna shavings used in dashi",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "id": 209,
+    "question": "What is the classic Japanese New Year food eaten for good luck?",
+    "options": ["Soba noodles", "Mochi rice cakes", "Osechi ryori (traditional New Year dishes)", "All of the above"],
+    "answer": "All of the above",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 210,
+    "question": "What is 'Mochi'?",
+    "options": ["A type of green tea", "A sticky rice cake", "A pickled vegetable", "A sweet red bean paste"],
+    "answer": "A sticky rice cake",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "id": 211,
+    "question": "What is 'Anko'?",
+    "options": ["Sweet red bean paste used in wagashi", "A type of seaweed", "Fermented soybean sauce", "Salted plum paste"],
+    "answer": "Sweet red bean paste used in wagashi",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 212,
+    "question": "What are 'Wagashi'?",
+    "options": ["Japanese pickles", "Traditional Japanese confections often served with tea", "Japanese dried fish snacks", "Convenience store sandwiches"],
+    "answer": "Traditional Japanese confections often served with tea",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "id": 213,
+    "question": "Japan's most famous monster, Godzilla, was created as a metaphor for what?",
+    "options": ["Industrial pollution", "Nuclear weapons and their destruction", "Earthquakes and tsunamis", "American occupation"],
+    "answer": "Nuclear weapons and their destruction",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 214,
+    "question": "The anime 'Naruto' is set in a world of what?",
+    "options": ["Samurai and dragons", "Ninja villages and chakra-based powers", "Mecha pilots", "Spirit hunters"],
+    "answer": "Ninja villages and chakra-based powers",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 215,
+    "question": "What is the longest-running anime series in history?",
+    "options": ["Dragon Ball", "One Piece", "Sazae-san", "Doraemon"],
+    "answer": "Sazae-san",
+    "category": "popculture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 216,
+    "question": "What iconic blue robotic cat from the future is a beloved Japanese character?",
+    "options": ["Astro Boy", "Doraemon", "Gundam", "Ultraman"],
+    "answer": "Doraemon",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 217,
+    "question": "Osamu Tezuka is known as what in Japanese culture?",
+    "options": ["The God of Anime", "The Father of Manga", "The God of Manga", "The Grandfather of Anime"],
+    "answer": "The God of Manga",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 218,
+    "question": "Which Osamu Tezuka creation is often called the first modern manga and anime?",
+    "options": ["Black Jack", "Kimba the White Lion", "Astro Boy (Tetsuwan Atom)", "Princess Knight"],
+    "answer": "Astro Boy (Tetsuwan Atom)",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 219,
+    "question": "What is the name of the famous Japanese TV monster hero franchise that began in 1966?",
+    "options": ["Kamen Rider", "Super Sentai", "Ultraman", "Godzilla"],
+    "answer": "Ultraman",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 220,
+    "question": "The Power Rangers franchise is adapted from which Japanese series?",
+    "options": ["Kamen Rider", "Super Sentai", "Ultraman", "Metal Heroes"],
+    "answer": "Super Sentai",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 221,
+    "question": "What is 'Isekai' in anime and manga?",
+    "options": ["A genre about high school romance", "A genre where characters are transported to another world", "A genre focused on sports", "A horror genre"],
+    "answer": "A genre where characters are transported to another world",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 222,
+    "question": "What is the world's most visited amusement park in Japan?",
+    "options": ["Universal Studios Japan", "Fuji-Q Highland", "Tokyo Disneyland", "Nagashima Spa Land"],
+    "answer": "Tokyo Disneyland",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 223,
+    "question": "What is 'Karaoke'?",
+    "options": ["A traditional Japanese drum performance", "A form of entertainment where people sing along to recorded music", "A type of Japanese board game", "A comedy performance art"],
+    "answer": "A form of entertainment where people sing along to recorded music",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 224,
+    "question": "What does 'Karaoke' literally mean in Japanese?",
+    "options": ["Sing together", "Empty orchestra", "Music room", "Open stage"],
+    "answer": "Empty orchestra",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 225,
+    "question": "What is a 'Pachinko' parlor?",
+    "options": ["A traditional sake brewery", "An arcade featuring vertical pinball-like gambling machines", "A sumo wrestling venue", "A kabuki theater"],
+    "answer": "An arcade featuring vertical pinball-like gambling machines",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 226,
+    "question": "What is 'Nemawashi' in Japanese business culture?",
+    "options": ["Aggressive negotiation tactics", "Quietly laying groundwork for change by building consensus", "A formal written business proposal", "A company restructuring process"],
+    "answer": "Quietly laying groundwork for change by building consensus",
+    "category": "society",
+    "difficulty": "hard"
+  },
+  {
+    "id": 227,
+    "question": "What is the proper way to receive a business card (meishi) in Japan?",
+    "options": ["With one hand and put it in your pocket quickly", "With both hands, study it respectfully, and place it carefully on the table", "Fold it in half to show you will remember it", "Sign it to confirm receipt"],
+    "answer": "With both hands, study it respectfully, and place it carefully on the table",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 228,
+    "question": "What is 'Karoshi'?",
+    "options": ["A type of Japanese folk dance", "Death from overwork", "A national holiday", "A traditional farming technique"],
+    "answer": "Death from overwork",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 229,
+    "question": "Japan has how many UNESCO World Heritage Sites approximately?",
+    "options": ["5", "13", "20", "25"],
+    "answer": "25",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 230,
+    "question": "What is the Japanese writing system called that uses simplified Chinese characters?",
+    "options": ["Hiragana", "Katakana", "Kanji", "Romaji"],
+    "answer": "Kanji",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 231,
+    "question": "Japanese has three writing systems. Which one is used primarily for foreign loanwords?",
+    "options": ["Hiragana", "Katakana", "Kanji", "Romaji"],
+    "answer": "Katakana",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 232,
+    "question": "How many characters are in standard Hiragana?",
+    "options": ["26", "46", "64", "72"],
+    "answer": "46",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 233,
+    "question": "What is 'Furigana'?",
+    "options": ["A type of traditional hat", "Small phonetic readings placed above kanji characters", "A calligraphy tool", "A type of honorific language"],
+    "answer": "Small phonetic readings placed above kanji characters",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 234,
+    "question": "Japanese honorific language used in formal situations is called what?",
+    "options": ["Keigo", "Kango", "Yamato", "Teineigo"],
+    "answer": "Keigo",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 235,
+    "question": "What does 'Sensei' mean?",
+    "options": ["Respected elder", "One who has gone before / teacher", "Master craftsman", "Elder brother"],
+    "answer": "One who has gone before / teacher",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 236,
+    "question": "What is the name of the traditional Japanese board game using black and white stones?",
+    "options": ["Shogi", "Mahjong", "Go (Igo)", "Hanafuda"],
+    "answer": "Go (Igo)",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 237,
+    "question": "Shogi is often called Japanese what?",
+    "options": ["Checkers", "Chess", "Backgammon", "Mahjong"],
+    "answer": "Chess",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 238,
+    "question": "What is 'Hanafuda'?",
+    "options": ["Traditional Japanese flower-themed playing cards", "A type of kite", "A festival lantern design", "A form of calligraphy"],
+    "answer": "Traditional Japanese flower-themed playing cards",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 239,
+    "question": "Which company originally made Hanafuda cards before pivoting to video games?",
+    "options": ["Sega", "Sony", "Nintendo", "Bandai"],
+    "answer": "Nintendo",
+    "category": "popculture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 240,
+    "question": "What is the name of the ancient Japanese sport combining wrestling and divination at Shinto shrines?",
+    "options": ["Judo", "Sumo", "Naginata", "Kemari"],
+    "answer": "Sumo",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 241,
+    "question": "What is the circular ring used in sumo called?",
+    "options": ["Honbasho", "Dohyo", "Heya", "Mawashi"],
+    "answer": "Dohyo",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 242,
+    "question": "What is the name of the famous Japanese sword known as the 'soul of the samurai'?",
+    "options": ["Tanto", "Wakizashi", "Katana", "Naginata"],
+    "answer": "Katana",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "id": 243,
+    "question": "What is a 'Tanto'?",
+    "options": ["A long samurai sword", "A short dagger carried by samurai", "A ceremonial spear", "A type of bow"],
+    "answer": "A short dagger carried by samurai",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 244,
+    "question": "What is 'Tamahagane'?",
+    "options": ["A legendary mountain in Japan", "The special steel used to forge katana", "A type of sushi", "A samurai clan name"],
+    "answer": "The special steel used to forge katana",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "id": 245,
+    "question": "What does 'Yamato' refer to in Japanese history?",
+    "options": ["The ancient name for Japan or the Japanese people", "A famous battle strategy", "The first shogun's name", "A legendary mountain"],
+    "answer": "The ancient name for Japan or the Japanese people",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 246,
+    "question": "Which Japanese prefecture is famous for Nishikigoi (ornamental koi fish)?",
+    "options": ["Niigata", "Aichi", "Shizuoka", "Nagano"],
+    "answer": "Niigata",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 247,
+    "question": "What is the name of Japan's most famous hot spring region, known as the 'hot spring heaven' in Oita Prefecture?",
+    "options": ["Hakone", "Noboribetsu", "Beppu", "Kusatsu"],
+    "answer": "Beppu",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 248,
+    "question": "What is the famous island-shrine in Miyajima known for?",
+    "options": ["Its giant stone Buddha", "Its floating torii gate", "Its bamboo forest", "Its ninja history"],
+    "answer": "Its floating torii gate",
+    "category": "geography",
+    "difficulty": "easy"
+  },
+  {
+    "id": 249,
+    "question": "What is Japan's approximate population?",
+    "options": ["85 million", "105 million", "125 million", "145 million"],
+    "answer": "125 million",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 250,
+    "question": "Japan faces a serious demographic challenge. What is it?",
+    "options": ["Too many young people and not enough jobs", "A rapidly aging and shrinking population", "Mass immigration overwhelming services", "Youth unemployment crisis"],
+    "answer": "A rapidly aging and shrinking population",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 251,
+    "question": "What is Hokkaido most famous for producing?",
+    "options": ["Electronics", "Dairy products, seafood, and lavender", "Automobiles", "Sake and ceramics"],
+    "answer": "Dairy products, seafood, and lavender",
+    "category": "geography",
+    "difficulty": "medium"
+  },
+  {
+    "id": 252,
+    "question": "What is the name of the colorful flower fields in Hokkaido popular in summer?",
+    "options": ["Shikisai-no-Oka", "Farm Tomita", "Biei Blue Pond area", "All of the above"],
+    "answer": "All of the above",
+    "category": "geography",
+    "difficulty": "hard"
+  },
+  {
+    "id": 253,
+    "question": "What is 'Washi'?",
+    "options": ["Traditional Japanese paper", "A type of soy sauce", "A ceremonial wash basin", "A bamboo screen"],
+    "answer": "Traditional Japanese paper",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 254,
+    "question": "What traditional Japanese dyeing technique involves wax-resist dyeing?",
+    "options": ["Shibori", "Katazome", "Roketsu-zome", "Yuzen"],
+    "answer": "Roketsu-zome",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 255,
+    "question": "What is 'Shibori'?",
+    "options": ["A type of sword technique", "Traditional Japanese tie-dye fabric binding technique", "A calligraphy style", "A type of wooden joinery"],
+    "answer": "Traditional Japanese tie-dye fabric binding technique",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 256,
+    "question": "What is the famous Japanese joinery technique that uses no nails or glue?",
+    "options": ["Urushi", "Kumiko", "Wabi", "Tataki"],
+    "answer": "Kumiko",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 257,
+    "question": "What is 'Netsuke'?",
+    "options": ["A type of Japanese theater", "Miniature carved toggles used to hang pouches from kimono sashes", "A traditional fishing technique", "A decorative lacquer finish"],
+    "answer": "Miniature carved toggles used to hang pouches from kimono sashes",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 258,
+    "question": "What is the traditional Japanese art of miniature tree cultivation?",
+    "options": ["Ikebana", "Bonsai", "Kusamono", "Suiseki"],
+    "answer": "Bonsai",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 259,
+    "question": "What is 'Suiseki'?",
+    "options": ["Miniature trees", "The art of displaying naturally shaped stones", "Water gardening", "Rock climbing as a sport"],
+    "answer": "The art of displaying naturally shaped stones",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 260,
+    "question": "Who is the legendary founder of Aikido?",
+    "options": ["Jigoro Kano", "Morihei Ueshiba", "Gichin Funakoshi", "Mas Oyama"],
+    "answer": "Morihei Ueshiba",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 261,
+    "question": "Who founded Judo?",
+    "options": ["Morihei Ueshiba", "Jigoro Kano", "Gichin Funakoshi", "Masutatsu Oyama"],
+    "answer": "Jigoro Kano",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 262,
+    "question": "Gichin Funakoshi is known as the father of what martial art?",
+    "options": ["Judo", "Aikido", "Karate", "Kendo"],
+    "answer": "Karate",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 263,
+    "question": "What is 'Iaido'?",
+    "options": ["Competitive sword fighting", "The art of drawing and cutting with a sword in one motion", "A form of unarmed combat", "Group sword kata performance"],
+    "answer": "The art of drawing and cutting with a sword in one motion",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 264,
+    "question": "What was Emperor Hirohito's posthumous name?",
+    "options": ["Meiji", "Showa", "Taisho", "Heisei"],
+    "answer": "Showa",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 265,
+    "question": "What is the name of Japan's most sacred Shinto shrine, located in Mie Prefecture?",
+    "options": ["Meiji Jingu", "Izumo Taisha", "Ise Jingu", "Fushimi Inari"],
+    "answer": "Ise Jingu",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 266,
+    "question": "Ise Jingu is rebuilt every how many years in a tradition called Shikinen Sengu?",
+    "options": ["10 years", "20 years", "50 years", "100 years"],
+    "answer": "20 years",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 267,
+    "question": "What is the name of the famous 53-station route depicted in Hiroshige's woodblock prints?",
+    "options": ["Tokaido", "Nakasendo", "Koshu Kaido", "Nikko Kaido"],
+    "answer": "Tokaido",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 268,
+    "question": "What is 'Enka'?",
+    "options": ["Traditional Japanese pop music with a sentimental, melancholy style", "A type of festival dance", "Classical court music", "Modern J-Rock"],
+    "answer": "Traditional Japanese pop music with a sentimental, melancholy style",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 269,
+    "question": "What does 'Banzai!' traditionally mean as an exclamation?",
+    "options": ["Charge!", "Ten thousand years / long live!", "For the Emperor!", "Victory!"],
+    "answer": "Ten thousand years / long live!",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 270,
+    "question": "What is the famous Japanese island art project where contemporary art installations are placed across islands in the Seto Inland Sea?",
+    "options": ["Naoshima Art Island", "Teshima Art Museum", "Setouchi Triennale", "Art Setouchi"],
+    "answer": "Setouchi Triennale",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 271,
+    "question": "What is the Japanese term for the 'floating world' that the Edo-period ukiyo-e art depicted?",
+    "options": ["Ukiyo", "Mono", "Fuga", "Yume"],
+    "answer": "Ukiyo",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 272,
+    "question": "What is the national sport of Japan officially designated by law?",
+    "options": ["Baseball", "Sumo", "Kendo", "Judo"],
+    "answer": "Sumo",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 273,
+    "question": "What is 'Kadomatsu'?",
+    "options": ["A type of temple gate", "Pine and bamboo New Year decorations placed at entrances", "A ceremonial sword stand", "A lantern festival"],
+    "answer": "Pine and bamboo New Year decorations placed at entrances",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 274,
+    "question": "What is 'Shimekazari'?",
+    "options": ["A type of kabuki makeup", "A sacred rope decoration displayed at New Year", "A tea ceremony utensil", "A type of sushi press"],
+    "answer": "A sacred rope decoration displayed at New Year",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 275,
+    "question": "What is Japan's highest literary honor, awarded annually?",
+    "options": ["Naoki Prize", "Akutagawa Prize", "Mishima Prize", "Tanizaki Prize"],
+    "answer": "Akutagawa Prize",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 276,
+    "question": "Which Japanese author wrote 'Norwegian Wood' and 'Kafka on the Shore'?",
+    "options": ["Yukio Mishima", "Yasunari Kawabata", "Haruki Murakami", "Kobo Abe"],
+    "answer": "Haruki Murakami",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 277,
+    "question": "Who was the first Japanese author to win the Nobel Prize in Literature?",
+    "options": ["Yukio Mishima", "Yasunari Kawabata", "Kenzaburo Oe", "Haruki Murakami"],
+    "answer": "Yasunari Kawabata",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 278,
+    "question": "What is a 'Tengu' in Japanese mythology?",
+    "options": ["A water spirit", "A long-nosed mountain goblin associated with martial arts", "A shape-shifting fox", "An ancestor spirit"],
+    "answer": "A long-nosed mountain goblin associated with martial arts",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 279,
+    "question": "What is the mythological Japanese dragon called?",
+    "options": ["Ryu", "Oni", "Kirin", "Baku"],
+    "answer": "Ryu",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 280,
+    "question": "What is a 'Baku' in Japanese folklore?",
+    "options": ["A fish spirit", "A dream-eating creature", "A wind god", "A sea serpent"],
+    "answer": "A dream-eating creature",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 281,
+    "question": "What is 'Yokai'?",
+    "options": ["Only ghosts of the dead", "A class of supernatural beings and spirits in Japanese folklore", "Buddhist protective deities", "Shinto gods only"],
+    "answer": "A class of supernatural beings and spirits in Japanese folklore",
+    "category": "culture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 282,
+    "question": "What is the scariest type of Japanese ghost, often depicted as a pale woman with long black hair?",
+    "options": ["Oni", "Yurei", "Kappa", "Tengu"],
+    "answer": "Yurei",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 283,
+    "question": "The horror film 'The Ring' (Ringu) features a ghost girl named what?",
+    "options": ["Sadako", "Kayako", "Reiko", "Tomoko"],
+    "answer": "Sadako",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 284,
+    "question": "What is the famous Japanese horror film featuring a ghost woman called Kayako?",
+    "options": ["Ringu (The Ring)", "Ju-On (The Grudge)", "Audition", "Dark Water"],
+    "answer": "Ju-On (The Grudge)",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 285,
+    "question": "What is 'Cosplay'?",
+    "options": ["A type of anime fighting game", "Costume play — dressing as fictional characters", "A live-action role-playing game", "A competitive fashion event"],
+    "answer": "Costume play — dressing as fictional characters",
+    "category": "popculture",
+    "difficulty": "easy"
+  },
+  {
+    "id": 286,
+    "question": "What is Comiket short for?",
+    "options": ["Comic Kettle", "Comic Market", "Community Comics", "Comic Celebration"],
+    "answer": "Comic Market",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 287,
+    "question": "What is 'Doujinshi'?",
+    "options": ["Professional manga published by major publishers", "Self-published fan-made manga and fiction", "Government-approved cultural publications", "Historical documentary comics"],
+    "answer": "Self-published fan-made manga and fiction",
+    "category": "popculture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 288,
+    "question": "What was the name of Japan's first feature-length anime film, released in 1958 by Toei?",
+    "options": ["Astro Boy", "Princess Kaguya", "Hakujaden (The Tale of the White Serpent)", "Momotaro's Sea Eagles"],
+    "answer": "Hakujaden (The Tale of the White Serpent)",
+    "category": "popculture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 289,
+    "question": "What is the name of the famous love hotel district in Tokyo?",
+    "options": ["Roppongi", "Kabukicho", "Shinjuku Golden Gai", "Dogenzaka"],
+    "answer": "Kabukicho",
+    "category": "society",
+    "difficulty": "hard"
+  },
+  {
+    "id": 290,
+    "question": "What is the Japanese word for convenience store?",
+    "options": ["Depaato", "Konbini", "Hyakkaten", "Shotengai"],
+    "answer": "Konbini",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 291,
+    "question": "Which Japanese convenience store chain is the largest in Japan?",
+    "options": ["FamilyMart", "Lawson", "7-Eleven", "Ministop"],
+    "answer": "7-Eleven",
+    "category": "society",
+    "difficulty": "medium"
+  },
+  {
+    "id": 292,
+    "question": "What is a 'capsule hotel'?",
+    "options": ["A hotel with very small pod-like sleeping units", "A space-themed hotel", "A hotel with transparent walls", "A floating hotel on water"],
+    "answer": "A hotel with very small pod-like sleeping units",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 293,
+    "question": "What is 'Nemaki'?",
+    "options": ["A type of Japanese ramen", "A sleeping garment similar to yukata provided at ryokan", "A meditation cushion", "A type of folding screen"],
+    "answer": "A sleeping garment similar to yukata provided at ryokan",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 294,
+    "question": "What is the name of the famous Sapporo festival celebrated in February with ice sculptures?",
+    "options": ["Yuki Matsuri (Snow Festival)", "Hokkaido Winter Festival", "Sapporo Ice Dream", "Shiro Matsuri"],
+    "answer": "Yuki Matsuri (Snow Festival)",
+    "category": "culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 295,
+    "question": "What is the name of the annual Awa Odori festival famous for its dance?",
+    "options": ["Okinawa", "Tokushima", "Kyoto", "Nagoya"],
+    "answer": "Tokushima",
+    "category": "culture",
+    "difficulty": "hard"
+  },
+  {
+    "id": 296,
+    "question": "What is Japan's official language?",
+    "options": ["Japanese and English", "Japanese only", "Japanese and Chinese", "Japanese and Korean"],
+    "answer": "Japanese only",
+    "category": "society",
+    "difficulty": "easy"
+  },
+  {
+    "id": 297,
+    "question": "What is the name of the indigenous people of Hokkaido?",
+    "options": ["Ryukyuan", "Ainu", "Yamato", "Jomon"],
+    "answer": "Ainu",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 298,
+    "question": "The Ryukyu Kingdom, before annexation by Japan, was located in which present-day prefecture?",
+    "options": ["Kyushu", "Okinawa", "Kagoshima", "Nagasaki"],
+    "answer": "Okinawa",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "id": 299,
+    "question": "What is 'Pachinko' most closely related to legally in Japan?",
+    "options": ["Sports betting", "Lottery", "A grey area — technically not gambling due to prize exchange loopholes", "Legal casino gaming"],
+    "answer": "A grey area — technically not gambling due to prize exchange loopholes",
+    "category": "society",
+    "difficulty": "hard"
+  },
+  {
+    "id": 300,
+    "question": "What is the famous annual Naked Man Festival in Japan called?",
+    "options": ["Hadaka Matsuri", "Kanamara Matsuri", "Onbashira", "Naki Sumo"],
+    "answer": "Hadaka Matsuri",
+    "category": "culture",
+    "difficulty": "medium"
+  }
+]
