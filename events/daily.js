@@ -32,8 +32,8 @@ function startDailyScheduler(client) {
             const question = getRandomQuestion(usedIds);
             usedIds.push(question.id);
             await channel.send(`**Question ${i + 1} of ${count}**`);
-            await runQuizRound(channel, mode, question);
-            if (i < DAILY_QUESTION_COUNT - 1) await sleep(3000);
+            await runQuizRound(channel, mode, question, 10 * 60 * 1000);
+            if (i < count - 1) await sleep(5000);
           }
 
           await channel.send('🎉 **Daily quiz complete!** Check `/leaderboard` to see today\'s scores.');

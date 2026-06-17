@@ -94,7 +94,7 @@ function buildButtons(shuffledOptions) {
   return new ActionRowBuilder().addComponents(buttons);
 }
 
-async function runQuizRound(channel, mode = 'multiple', questionOverride = null) {
+async function runQuizRound(channel, mode = 'multiple', questionOverride = null, timeoutMs = 30_000) {
   const question = questionOverride || getRandomQuestion();
   const shuffledOptions = shuffleOptions(question);
   const correctIndex = shuffledOptions.indexOf(question.answer);
@@ -110,7 +110,7 @@ async function runQuizRound(channel, mode = 'multiple', questionOverride = null)
       const row = buildButtons(shuffledOptions);
       quizMessage = await channel.send({ embeds: [embed], components: [row] });
 
-      const collector = quizMessage.createMessageComponentCollector({ time: 30_000 });
+      const collector = quizMessage.createMessageComponentCollector({ time: timeoutMs });
 
       collector.on('collect', async (interaction) => {
         if (allAnswered.has(interaction.user.id)) {

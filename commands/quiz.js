@@ -1,12 +1,16 @@
 const { SlashCommandBuilder } = require('discord.js');
-const { runQuizRound } = require('../utils/quizEngine');
+const { runQuizRound, getRandomQuestion } = require('../utils/quizEngine');
 const { getGuildConfig } = require('../db/database');
 const questions = require('../data/questions.json');
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('quiz')
-    .setDescription('Start a Japan quiz question!')
+    .setDescription('Start a Japan quiz!')
     .addStringOption(option =>
       option
         .setName('mode')
@@ -30,12 +34,21 @@ module.exports = {
           { name: '🎌 Pop Culture', value: 'popculture' },
           { name: '🏯 Society', value: 'society' }
         )
+    )
+    .addIntegerOption(option =>
+      option
+        .setName('count')
+        .setDescription('Number of questions (1–20, default 1)')
+        .setRequired(false)
+        .setMinValue(1)
+        .setMaxValue(20)
     ),
 
   async execute(interaction) {
     const config = getGuildConfig(interaction.guildId);
     const mode = interaction.options.getString('mode') || config.default_mode || 'multiple';
     const category = interaction.options.getString('category');
+    const count = interaction.options.getInteger('count') ?? 1;
 
     let questionPool = [...questions];
     if (category) {
@@ -45,9 +58,30 @@ module.exports = {
       }
     }
 
-    const question = questionPool[Math.floor(Math.random() * questionPool.length)];
+    await interaction.reply({ content: `🎌 **Japan Quiz starting!** ${count} question${count > 1 ? 's' : ''} incoming!`, ephemeral: false });
 
-    await interaction.reply({ content: '🎌 **Japan Quiz starting!**', ephemeral: false });
-    await runQuizRound(interaction.channel, mode, question);
+    const usedIds = [];
+    for (let i = 0; i < count; i++) {
+      let question;
+      if (category) {
+        const available = questionPool.filter(q => !usedIds.includes(q.id));
+        question = available.length > 0
+          ? available[Math.floor(Math.random() * available.length)]
+          : questionPool[Math.floor(Math.random() * questionPool.length)];
+      } else {
+        question = getRandomQuestion(usedIds);
+      }
+      usedIds.push(question.id);
+
+      if (count > 1) {
+        await interaction.channel.send(`**Question ${i + 1} of ${count}**`);
+      }
+      await runQuizRound(interaction.channel, mode, question);
+      if (i < count - 1) await sleep(3000);
+    }
+
+    if (count > 1) {
+      await interaction.channel.send('🎉 **Quiz complete!** Check `/leaderboard` to see scores.');
+    }
   }
 };
